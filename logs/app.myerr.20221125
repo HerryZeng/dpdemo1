@@ -1,0 +1,90 @@
+2022-11-25 11:14:55	error	middleware/logging.go:53	invalid character 'O' looking for beginning of value
+github.com/HerryZeng/dpdemo1/middleware.Logging.func1
+	D:/workspace/dpdemo1/middleware/logging.go:53
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/1/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/HerryZeng/dpdemo1/middleware.ProcessTraceID.func1
+	D:/workspace/dpdemo1/middleware/traceid.go:17
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/1/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/1/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/1/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/1/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/1/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2947
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1991
+2022-11-25 11:14:55	error	middleware/logging.go:53	invalid character 'A' looking for beginning of value
+github.com/HerryZeng/dpdemo1/middleware.Logging.func1
+	D:/workspace/dpdemo1/middleware/logging.go:53
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/1/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/HerryZeng/dpdemo1/middleware.ProcessTraceID.func1
+	D:/workspace/dpdemo1/middleware/traceid.go:17
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/1/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/1/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/1/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.serveError
+	C:/Users/1/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:652
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/1/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:645
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/1/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2947
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1991
+2022-11-25 11:14:55	error	middleware/logging.go:53	invalid character 'A' looking for beginning of value
+github.com/HerryZeng/dpdemo1/middleware.Logging.func1
+	D:/workspace/dpdemo1/middleware/logging.go:53
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/1/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/HerryZeng/dpdemo1/middleware.ProcessTraceID.func1
+	D:/workspace/dpdemo1/middleware/traceid.go:17
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/1/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/1/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/1/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.serveError
+	C:/Users/1/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:652
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/1/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:645
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/1/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2947
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1991
+2022-11-25 11:16:05	error	middleware/logging.go:53	invalid character 'A' looking for beginning of value
+github.com/HerryZeng/dpdemo1/middleware.Logging.func1
+	D:/workspace/dpdemo1/middleware/logging.go:53
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/1/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/HerryZeng/dpdemo1/middleware.ProcessTraceID.func1
+	D:/workspace/dpdemo1/middleware/traceid.go:17
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/1/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/1/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/1/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.serveError
+	C:/Users/1/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:652
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/1/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:645
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/1/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2947
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1991
