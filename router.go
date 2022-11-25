@@ -5,6 +5,7 @@ import (
 
 	"github.com/HerryZeng/dpdemo1/handler"
 	"github.com/HerryZeng/dpdemo1/health"
+	"github.com/arl/statsviz"
 	"github.com/gin-gonic/gin"
 )
 
@@ -17,6 +18,18 @@ func Load(engine *gin.Engine, middlewares ...gin.HandlerFunc) *gin.Engine {
 	check := engine.Group("/check")
 	{
 		check.GET("/health", health.Health)
+	}
+
+	debug := engine.Group("/debug")
+
+	{
+		debug.GET("/statsviz/*filepath", func(ctx *gin.Context) {
+			if ctx.Param("filepath") == "/ws" {
+				statsviz.Ws(ctx.Writer, ctx.Request)
+				return
+			}
+			statsviz.IndexAtRoot("/debug/statsviz").ServeHTTP(ctx.Writer, ctx.Request)
+		})
 	}
 
 	dp := engine.Group("/v1/dp")

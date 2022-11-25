@@ -2,6 +2,7 @@ package main
 
 import (
 	"flag"
+	"fmt"
 	"log"
 	"net/http"
 
@@ -10,6 +11,7 @@ import (
 	"github.com/HerryZeng/dpdemo1/handler"
 	"github.com/HerryZeng/dpdemo1/middleware"
 	"github.com/HerryZeng/dpdemo1/model"
+	example "github.com/arl/statsviz/_example"
 	"github.com/gin-gonic/gin"
 	"github.com/spf13/viper"
 )
@@ -37,6 +39,8 @@ func init() {
 }
 
 func main() {
+	go example.Work()
+	fmt.Println("Point your browser to http://localhost:9090/debug/statsviz/")
 	flag.Parse()
 
 	if err := config.Init(*cfg); err != nil {
@@ -52,5 +56,8 @@ func main() {
 	)
 	port := viper.GetString("addr")
 	MyLog.Log.Info("开始监听http地址", port)
-	log.Printf(http.ListenAndServe(port, r).Error())
+	// log.Printf(http.ListenAndServe(port, r).Error())
+	if err := http.ListenAndServe(port, r); err != nil {
+		log.Fatalf(err.Error())
+	}
 }
